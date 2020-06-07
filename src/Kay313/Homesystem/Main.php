@@ -20,11 +20,11 @@ class Main extends PluginBase implements Listener{
 
 
     public function onEnable(){
-
-        $this->getServer()->getLogger()->info("Homesystem wurde aktiviert!");
-
+        $this->getServer()->getLogger()->info("Homesystem enabled!");
     }
-
+    public function onDisable(){
+	$this->getLogger()->getLogger()->info("Homesystem disabled");
+    }
     
 
     public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool {
@@ -76,11 +76,11 @@ class Main extends PluginBase implements Listener{
  
 
         $form->setTitle("§l§3Homesystem");
-        $form->setContent("§aSuche etwas aus");
+        $form->setContent("§aWhat do you want to do?");
         $form->addButton("§4Schließen");
-        $form->addButton("§bHome \nTP dich zu einem Home");
-        $form->addButton("§bSethome \nSetze einen Home");
-        $form->addButton("§bDelhome \nLösche einen Home");
+        $form->addButton("§bHome \nTeleport to a Home");
+        $form->addButton("§bSethome \nCreate a Home");
+        $form->addButton("§bDelhome \nDelete a Home");
         $form->sendToPlayer($player);
         return $form;
 
