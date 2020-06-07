@@ -23,7 +23,7 @@ class Main extends PluginBase implements Listener{
         $this->getServer()->getLogger()->info("Homesystem enabled!");
     }
     public function onDisable(){
-	$this->getLogger()->getLogger()->info("Homesystem disabled");
+	$this->getServer()->getLogger()->info("Homesystem disabled");
     }
     
 
