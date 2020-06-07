@@ -24,7 +24,7 @@ class HomeForm extends CustomForm {
 
         $this->setTitle("§l§3Homesystem");
 
-        $this->addInput("§3Gebe hier den Namen des Homes ein zu dem du dich tpn willst");
+        $this->addInput("§3Enter here the name of the home you want to teleport to");
     }
 
 }
