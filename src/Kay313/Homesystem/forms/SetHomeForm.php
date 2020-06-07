@@ -24,7 +24,7 @@ class SetHomeForm extends CustomForm {
 
         $this->setTitle("§l§3Homesystem");
 
-        $this->addInput("§3Gebe hier den Namen von deinem neuen Home ein");
+        $this->addInput("§3Enter the name of the new home here");
     }
 
 }
