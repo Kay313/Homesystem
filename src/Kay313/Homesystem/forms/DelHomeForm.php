@@ -24,7 +24,7 @@ class DelHomeForm extends CustomForm {
 
         $this->setTitle("§l§3Homesystem");
 
-        $this->addInput("§3Gebe hier den Namen des Homes ein welches du löschen willst");
+        $this->addInput("§3Enter here the name of the home you want to delete");
     }
 
 }
