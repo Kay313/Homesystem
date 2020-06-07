@@ -77,7 +77,7 @@ class Main extends PluginBase implements Listener{
 
         $form->setTitle("§l§3Homesystem");
         $form->setContent("§aWhat do you want to do?");
-        $form->addButton("§4Schließen");
+        $form->addButton("§4Exit");
         $form->addButton("§bHome \nTeleport to a Home");
         $form->addButton("§bSethome \nCreate a Home");
         $form->addButton("§bDelhome \nDelete a Home");
