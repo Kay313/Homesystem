@@ -1,7 +1,7 @@
 name: Homesystem
 main: Kay313\Homesystem\Main
 author: Kay313
-api: 3.0.0
+api: 3.18.0
 version: 1.0.0
 commands:
   h:
